@@ -1,5 +1,6 @@
 .place-item {
     margin: 1rem 0;
+    background: #fff;
   }
   
   .place-item__content {
@@ -46,6 +47,11 @@
   .place-item__actions button,
   .place-item__actions a {
     margin: 0.5rem;
+  }
+
+  .map-container {
+    height: 20rem;
+    width: 100%;
   }
   
   @media (min-width: 768px) {
